@@ -2,11 +2,6 @@ import json
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-#with open('C:\\Users\\thoga\\OneDrive\\Desktop\\VS code Workspaces\\Grade Scraper\\tutorial\\tutorial\\data.json', 'r') as file:
-#        plot_data = json.load(file)
-
-
 def plot_data_from_json(json_file):
     with open(json_file, 'r') as file:
         data = json.load(file)
@@ -25,7 +20,7 @@ def plot_data_from_json(json_file):
     plt.legend()
     plt.show()
 
-plot_data_from_json('C:\\Users\\thoga\\OneDrive\\Desktop\\VS code Workspaces\\Grade Scraper\\tutorial\\tutorial\\data.json')
+plot_data_from_json('file path to data.json')
 
 
 
