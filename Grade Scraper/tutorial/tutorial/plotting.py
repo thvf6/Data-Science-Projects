@@ -7,7 +7,7 @@ def plot_data_from_json(json_file):
         data = json.load(file)
 
     # Extract the relevant data
-    average_grades = [item['average_grade'] for item in data]
+    average_grades = [float(item['average_grade']) if item['average_grade'] else None for item in data]
     a_ranges = [float(item['a_range']) if item['a_range'] else None for item in data]
     f_ranges = [float(item['f_range']) if item['f_range'] else None for item in data]
 
