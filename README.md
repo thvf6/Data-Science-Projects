@@ -1,6 +1,6 @@
 # Grade-Scraper
 
-This web scraper uses Scrapy to collect grade distribution data for math courses at MU. Code for a scatter-plot that displays A and F range grades vs. the average GPA is also included. 
+This web scraper uses Scrapy to collect grade distribution data for math courses at MU. The plotting file includes code that generates a scatter plot and linear regression model for the distributions of A, C, and F grades. 
 
 ## Guide
 
